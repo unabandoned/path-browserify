@@ -10,9 +10,9 @@
   "bugs": "https://github.com/unabandoned/path-browserify/issues",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^19.6.1",
-    "@commitlint/config-conventional": "^19.6.0",
-    "tape": "^4.9.0"
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
+    "tape": "4.17.0"
   },
   "homepage": "https://github.com/unabandoned/path-browserify",
   "keywords": [
