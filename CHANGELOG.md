@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.2](https://github.com/unabandoned/path-browserify/compare/path-browserify-v1.0.1...path-browserify-v1.0.2) (2026-08-11)
+
+
+### Miscellaneous Chores
+
+* release path-browserify 1.0.2 ([2e89566](https://github.com/unabandoned/path-browserify/commit/2e895669719e2e791c84da40991858a17c560cc4))
+
 ## 1.0.1
 * Fix a duplicate test name.
 * Tweak LICENSE text so Github can recognise it.
