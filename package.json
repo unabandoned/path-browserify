@@ -1,5 +1,5 @@
 {
-  "name": "path-browserify",
+  "name": "@unabandoned/path-browserify",
   "description": "the path module from node core for browsers",
   "version": "1.0.1",
   "author": {
@@ -7,12 +7,14 @@
     "email": "mail@substack.net",
     "url": "http://substack.net"
   },
-  "bugs": "https://github.com/browserify/path-browserify/issues",
+  "bugs": "https://github.com/unabandoned/path-browserify/issues",
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "tape": "^4.9.0"
   },
-  "homepage": "https://github.com/browserify/path-browserify",
+  "homepage": "https://github.com/unabandoned/path-browserify",
   "keywords": [
     "browser",
     "browserify",
@@ -20,11 +22,19 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/browserify/path-browserify.git"
+    "url": "git+https://github.com/unabandoned/path-browserify.git"
+  },
+  "engines": {
+    "node": ">=14"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "prepare": "git config core.hooksPath .githooks || true"
   }
 }
