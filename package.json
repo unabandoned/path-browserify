@@ -11,8 +11,7 @@
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "21.2.1",
-    "@commitlint/config-conventional": "21.2.0",
-    "tape": "5.10.2"
+    "@commitlint/config-conventional": "21.2.0"
   },
   "homepage": "https://github.com/unabandoned/path-browserify",
   "keywords": [
@@ -34,7 +33,7 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "node test",
+    "test": "node --test test/test-path*.js",
     "prepare": "git config core.hooksPath .githooks || true"
   }
 }

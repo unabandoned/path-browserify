@@ -5,7 +5,7 @@
 // directory. This test makes sure that the behavior is intact between commits.
 // See: https://github.com/nodejs/node/pull/2106
 
-var tape = require('tape');
+var tape = require('./tape-adapter');
 var path = require('../');
 var pwd = process.cwd();
 
