@@ -20,7 +20,7 @@
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 'use strict';
-var tape = require('tape');
+var tape = require('./tape-adapter');
 var path = require('../');
 
 var winPaths = [
