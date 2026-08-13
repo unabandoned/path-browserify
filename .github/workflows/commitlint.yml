@@ -5,4 +5,4 @@ jobs:
   commitlint:
     permissions:
       contents: read
-    uses: unabandoned/.github/.github/workflows/reusable-commitlint.yml@0a154f2464d678b83874a47b5abe3c33fa29fb83 # main
+    uses: unabandoned/.github/.github/workflows/reusable-commitlint.yml@5a06bdfe75ead7614f6a2bdddfa00f60b4cc9c9b # main
