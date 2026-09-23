@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.4](https://github.com/unabandoned/path-browserify/compare/path-browserify-v1.0.3...path-browserify-v1.0.4) (2026-09-23)
+
+
+### Bug Fixes
+
+* stop dev-only commits from cutting releases ([#42](https://github.com/unabandoned/path-browserify/issues/42)) ([5e05edf](https://github.com/unabandoned/path-browserify/commit/5e05edf1bc8f535ec420fefbbc46d64b37408473))
+
+
+### Dependencies & maintenance
+
+* add .unabandoned.yml dashboard metadata ([#31](https://github.com/unabandoned/path-browserify/issues/31)) ([ecaa9cb](https://github.com/unabandoned/path-browserify/commit/ecaa9cbbcec55746bad00b962a43188b0a82b5d3))
+
 ## [1.0.3](https://github.com/unabandoned/path-browserify/compare/path-browserify-v1.0.2...path-browserify-v1.0.3) (2026-08-13)
 
 
