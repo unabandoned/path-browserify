@@ -2,6 +2,10 @@
   "name": "@unabandoned/path-browserify",
   "description": "the path module from node core for browsers",
   "version": "1.0.4",
+  "files": [
+    "CHANGELOG.md",
+    "index.js"
+  ],
   "author": {
     "name": "James Halliday",
     "email": "mail@substack.net",
